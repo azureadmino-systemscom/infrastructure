@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "azureadmin"
+    },
+    "sqlStorageAccountName": {
+      "value": "mssqlagstorage"
+    },
+    "dcStorageAccountName": {
+      "value": "domaincontrollerstorage"
+    },
+    "adVMSize": {
+      "value": "Standard_B1ms"
+    },
+    "sqlVMSize": {
+      "value": "Standard_B2ms"
+    },
+    "witnessVMSize": {
+      "value": "Standard_B1ms"
+    },
+    "domainName": {
+      "value": "o-systems.com"
+    },
+    "sqlSubnet": {
+      "value": "10.0.1.0/24"
+    },
+    "virtualNetworkName": {
+      "value": "osystemsproductionVNET"
+    }
+  }
+}

@@ -251,14 +251,14 @@
       "metadata": {
         "description": "Linked Templates base url"
       },
-      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/nested"
+      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/tree/master/AzureResourceGroup1/nested"
     },
     "scriptsBaseUrl": {
       "type": "string",
       "metadata": {
         "description": "DSC Scripts base url"
       },
-      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/scripts"
+      "defaultValue": "https://github.com/azureadmino-systemscom/infrastructure/tree/master/AzureResourceGroup1/scripts"
     },
     "autoPatchingDay": {
       "type": "string",
